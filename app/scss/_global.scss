@@ -7,6 +7,13 @@ html {
 *::after {
     box-sizing: inherit;
 }
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
 
 a {
     display: inline-block;
@@ -22,7 +29,7 @@ li {
 }
 
 body {
-    font-family: 'Roboto - Regular', sans-serif;
+    font-family: 'Quicksand - Regular', sans-serif;
     font-size: 15px;
     line-height: 24px;
     color: $text;
@@ -30,7 +37,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
