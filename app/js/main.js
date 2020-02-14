@@ -1,5 +1,7 @@
 $(function(){
 
-    var mixer = mixitup('.slider__inner');
+    // var mixer = mixitup('.slider__inner');
+
+    
 
 });
