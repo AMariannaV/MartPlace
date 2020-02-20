@@ -22,36 +22,167 @@
     font-display: swap; 
 }
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?ddxhfh');
-    src:  url('../fonts/icomoon.eot?ddxhfh#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?ddxhfh') format('truetype'),
-      url('../fonts/icomoon.woff?ddxhfh') format('woff'),
-      url('../fonts/icomoon.svg?ddxhfh#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-angle-left:before {
-    content: "\f104";
-  }
-  .icon-angle-right:before {
-    content: "\f105";
-  }
-  
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?w98531');
+  src:  url('../fonts/icomoon/icomoon.eot?w98531#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?w98531') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?w98531') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?w98531#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\f002";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-star-o:before {
+  content: "\f006";
+}
+.icon-th-large:before {
+  content: "\f009";
+}
+.icon-th-list:before {
+  content: "\f00b";
+}
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-cog:before {
+  content: "\f013";
+}
+.icon-gear:before {
+  content: "\f013";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-inbox:before {
+  content: "\f01c";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-question-circle:before {
+  content: "\f059";
+}
+.icon-leaf:before {
+  content: "\f06c";
+}
+.icon-eye:before {
+  content: "\f06e";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+.icon-bar-chart:before {
+  content: "\f080";
+}
+.icon-bar-chart-o:before {
+  content: "\f080";
+}
+.icon-heart-o:before {
+  content: "\f08a";
+}
+.icon-sign-in:before {
+  content: "\f090";
+}
+.icon-upload:before {
+  content: "\f093";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
+}
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+.icon-group:before {
+  content: "\f0c0";
+}
+.icon-users:before {
+  content: "\f0c0";
+}
+.icon-magic:before {
+  content: "\f0d0";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-comment-o:before {
+  content: "\f0e5";
+}
+.icon-cloud-download:before {
+  content: "\f0ed";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-smile-o:before {
+  content: "\f118";
+}
+.icon-code-fork:before {
+  content: "\f126";
+}
+.icon-long-arrow-left:before {
+  content: "\f177";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-google:before {
+  content: "\f1a0";
+}
+.icon-circle-thin:before {
+  content: "\f1db";
+}
+.icon-pinterest-p:before {
+  content: "\f231";
+}
+.icon-drivers-license-o:before {
+  content: "\f2c3";
+}
+.icon-id-card-o:before {
+  content: "\f2c3";
+}
